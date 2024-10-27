@@ -5504,13 +5504,13 @@
     );
   }
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/js/mdui.min.js"></script>'
+    '<script src="//rawcdn.githack.com/tulungagung/drive/9df127b5cc559b068c899b92d8a59bf2e9b9cd6f/js/mdui.min.js"></script>'
   );
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/js/flv.min.js"></script>'
+    '<script src="//rawcdn.githack.com/tulungagung/drive/9df127b5cc559b068c899b92d8a59bf2e9b9cd6f/js/flv.min.js"></script>'
   );
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/js/DPlayer.min.js"></script>'
+    '<script src="//rawcdn.githack.com/tulungagung/drive/9df127b5cc559b068c899b92d8a59bf2e9b9cd6f/js/DPlayer.min.js"></script>'
   );
   document.write(
     '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'
