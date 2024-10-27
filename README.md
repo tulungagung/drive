@@ -61,7 +61,7 @@
 ---
 
 # Support me
-Like my work? Support me via Saweria! (Indonesian only)
+Like my work? Support me via Saweria!
 
 [![Saweria](images/new-saweria.png)](https://saweria.co/candro)
 
