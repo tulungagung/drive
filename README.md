@@ -60,9 +60,10 @@
 
 ---
 
-# Support me
-Like my work? Support me via Saweria!
+# Support
 
-[![Saweria](images/new-saweria.png)](https://saweria.co/candro)
+Scan me Please !
+
+[![Saweria](img/saweria.png)](https://saweria.co/candro)
 
 Thank you very much!
