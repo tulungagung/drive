@@ -200,7 +200,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/app.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/app.min.js"></script>
 </head>
 <body>
 </body>
