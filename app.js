@@ -5584,7 +5584,7 @@
       html += `
       <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
         <a href="https://s.id/candro" target="_blank">
-          <img src="https://img.shields.io/static/v1?label=support&amp;message=candro&amp;color=1E89F2&amp;labelColor=374455&amp;logo=paypal" alt="help me with money">
+          <img src="https://img.shields.io/static/v1?label=candro&amp;message=v1.2.7&amp;color=1E89F2&amp;labelColor=374455&amp;logo=codeproject" alt="help me with money">
         </a>
       </div>
       </div>
