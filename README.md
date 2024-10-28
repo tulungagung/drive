@@ -65,10 +65,6 @@
 
 Scan me Please !
 
-<<<<<<< HEAD
-[![Saweria](/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
-=======
-[![Saweria](https://cdn.jsdelivr.net/gh/tulungagung/drive@1.2.5/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
->>>>>>> mainland
+[![Saweria](https://cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
 
 Thank you very much!
