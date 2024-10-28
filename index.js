@@ -1,7 +1,7 @@
 const authConfig = {
   siteName: "A Team Drive", // App Name
   siteIcon: "https:////cdn.jsdelivr.net/gh/tulungagung/drive@latest/assets/images/favicon-x.png", // or favicon-x-light.png
-  version: "1.2.1",
+  version: "1.2.5",
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: "", // Client ID
   client_secret: "", // Client Secret
