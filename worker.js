@@ -1,7 +1,6 @@
 const authConfig = {
-  siteName: "CHANGEme", // App Name
-  siteIcon:
-    "https://rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/images/favicon-x.png", //or fevicon-x-light.png
+  siteName: "A Team Drive", // App Name
+  siteIcon: "https://rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/images/favicon-x.png", //or fevicon-x-light.png
   version: "1.4.1", // VersionControl, do not modify manually
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: "", // Client ID
@@ -92,10 +91,10 @@ const authConfig = {
 const uiConfig = {
   theme: "material", // DO NOT set it to classic
   dark_mode: true, // true or false
-  title_include_drive_name: false, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
+  title_include_drive_name: false, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: A Team Drive - Disk 01)
   title_include_path: "", // full-path | current-directory | or leave it empty
-  // set title_include_path to "full-path" if you want to add full path of the current directory to title (ex: Goindex Extented - /Multimedia/images/) or (ex: Goindex Extented - Disk 01 - /Multimedia/images)
-  // set title_include_path to "current-directory" to add current directory to title (ex: Goindex Extented - /images/)
+  // set title_include_path to "full-path" if you want to add full path of the current directory to title (ex: A Team Drive - /Multimedia/images/) or (ex: A Team Drive - Disk 01 - /Multimedia/images)
+  // set title_include_path to "current-directory" to add current directory to title (ex: A Team Drive - /images/)
   // If you need to remove path from page title, leave it empty as it is
   hide_actions_tab: false, // Set this to true if you want to hide the actions tab which contains direct dowload, copy link, open in a new tab button
   hide_head_md: false, // Set this to true if you need to disable rendering HEAD.md
