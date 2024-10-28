@@ -1,7 +1,6 @@
 const authConfig = {
   siteName: "A Team Drive", // App Name
   siteIcon: "https://rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/images/favicon-x.png", //or fevicon-x-light.png
-  version: "1.4.1", // VersionControl, do not modify manually
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: "", // Client ID
   client_secret: "", // Client Secret
