@@ -5487,40 +5487,15 @@
   }
   if (UI.dark_mode) {
     document.write(
-<<<<<<< HEAD
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/css/mdui_v3_dark.min.css">'
-    );
-  } else {
-    document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/css/mdui_v3.min.css">'
-=======
       '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/css/mdui_v3_dark.min.css">'
     );
   } else {
     document.write(
       '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/css/mdui_v3.min.css">'
->>>>>>> mainland
     );
   }
   if (UI.dark_mode) {
     document.write(
-<<<<<<< HEAD
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/css/nexmoe_v3_dark.min.css">'
-    );
-  } else {
-    document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/css/nexmoe_v3.min.css">'
-    );
-  }
-  document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/js/mdui.min.js"></script>'
-  );
-  document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/js/flv.min.js"></script>'
-  );
-  document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/js/DPlayer.min.js"></script>'
-=======
       '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/css/nexmoe_v3_dark.min.css">'
     );
   } else {
@@ -5536,7 +5511,6 @@
   );
   document.write(
     '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/js/DPlayer.min.js"></script>'
->>>>>>> mainland
   );
   document.write(
     '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'
@@ -6238,13 +6212,8 @@
   </div>
   <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
   
-<<<<<<< HEAD
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/js/ace.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/js/ext-language_tools.js"></script>
-=======
   <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/js/ace.js"></script>
   <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/js/ext-language_tools.js"></script>
->>>>>>> mainland
       `;
     $("#content").html(content);
     $.get(path, function (data) {

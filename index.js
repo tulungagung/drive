@@ -1,12 +1,7 @@
 const authConfig = {
   siteName: "A Team Drive", // App Name
-<<<<<<< HEAD
-  siteIcon: "https:////cdn.jsdelivr.net/gh/tulungagung/drive@latest/assets/images/favicon-x.png", // or favicon-x-light.png
-  version: "1.2.5",
-=======
   siteIcon: "https:////cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/assets/images/favicon-x.png", // or favicon-x-light.png
   version: "1.2.0-stable",
->>>>>>> mainland
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: "", // Client ID
   client_secret: "", // Client Secret
@@ -205,11 +200,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-<<<<<<< HEAD
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@latest/app.min.js"></script>
-=======
   <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/app.min.js"></script>
->>>>>>> mainland
 </head>
 <body>
 </body>
