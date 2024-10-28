@@ -64,6 +64,6 @@
 
 Scan me Please !
 
-[![Saweria](assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
+[![Saweria](/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
 
 Thank you very much!
