@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Repo Size](https://img.shields.io/github/repo-size/tulungagung/drive?color=2fc29d&label=Repo%20Size)]()
 [![Last Commit](https://img.shields.io/github/last-commit/tulungagung/drive?label=Last%20Commit)]()
+[![](https://data.jsdelivr.com/v1/package/gh/tulungagung/drive/badge)](https://www.jsdelivr.com/package/gh/tulungagung/drive)
 
 ## ✨ Unique Features
 
@@ -64,6 +65,6 @@
 
 Scan me Please !
 
-[![Saweria](/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
+[![Saweria](https://cdn.jsdelivr.net/gh/tulungagung/drive@1.2.5/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
 
 Thank you very much!
