@@ -5487,30 +5487,30 @@
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/mdui_v3_dark.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/css/mdui_v3_dark.min.css">'
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/mdui_v3.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/css/mdui_v3.min.css">'
     );
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/nexmoe_v3_dark.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/css/nexmoe_v3_dark.min.css">'
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/nexmoe_v3.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/css/nexmoe_v3.min.css">'
     );
   }
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/js/mdui.min.js"></script>'
+    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/js/mdui.min.js"></script>'
   );
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/js/flv.min.js"></script>'
+    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/js/flv.min.js"></script>'
   );
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/js/DPlayer.min.js"></script>'
+    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/js/DPlayer.min.js"></script>'
   );
   document.write(
     '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'
@@ -5584,7 +5584,7 @@
       html += `
       <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
         <a href="https://s.id/candro" target="_blank">
-          <img src="https://img.shields.io/static/v1?label=support&amp;message=candro&amp;color=1E89F2&amp;labelColor=374455&amp;logo=docsify" alt="help me with money">
+          <img src="https://img.shields.io/static/v1?label=support&amp;message=candro&amp;color=1E89F2&amp;labelColor=374455&amp;logo=paypal" alt="help me with money">
         </a>
       </div>
       </div>
@@ -6212,8 +6212,8 @@
   </div>
   <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
   
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@workspace/js/ace.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@workspace/js/ext-language_tools.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/js/ace.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/js/ext-language_tools.js"></script>
       `;
     $("#content").html(content);
     $.get(path, function (data) {

@@ -1,6 +1,7 @@
 const authConfig = {
   siteName: "A Team Drive", // App Name
-  siteIcon: "https://rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/images/favicon-x.png", //or fevicon-x-light.png
+  siteIcon: "https:////cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/assets/images/favicon-x.png", // or favicon-x-light.png
+  version: "1.2.0-stable",
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: "", // Client ID
   client_secret: "", // Client Secret
@@ -26,11 +27,11 @@ const authConfig = {
       id: "root", //you can use folderid other than root but then search wont work
       name: "Local",
 
-    /**
-     * provide 'username':'password' combinations seperated by commas.
-     * If you add empty values like this => auth":{"":""} then the site will still ask for authentication but user can enter without entering any data by clicking submit     
-     * To enable password protection, uncomment the below code line(remove "//" in the front of the below code line) 
-     */
+      /**
+       * provide 'username':'password' combinations seperated by commas.
+       * If you add empty values like this => auth":{"":""} then the site will still ask for authentication but user can enter without entering any data by clicking submit
+       * To enable password protection, uncomment the below code line(remove "//" in the front of the below code line)
+       */
 
       //auth: {'username_1' : 'password_1', 'username_2' : 'password_2'},
       protect_file_link: false, //true or false
@@ -199,7 +200,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@288cc0ff05d5be66d482b146630805faa03c55f8/app.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.0-stable/app.min.js"></script>
 </head>
 <body>
 </body>
