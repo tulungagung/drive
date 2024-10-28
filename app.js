@@ -5487,30 +5487,30 @@
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/css/mdui_v3_dark.min.css">'
+      `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/css/mdui_v3_dark.min.css">`
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/css/mdui_v3.min.css">'
+      `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/css/mdui_v3.min.css">`
     );
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/css/nexmoe_v3_dark.min.css">'
+      `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/css/nexmoe_v3_dark.min.css">`
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/css/nexmoe_v3.min.css">'
+      `<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/css/nexmoe_v3.min.css">`
     );
   }
   document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/js/mdui.min.js"></script>'
+    `<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/js/mdui.min.js"></script>`
   );
   document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/js/flv.min.js"></script>'
+    `<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/js/flv.min.js"></script>`
   );
   document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/js/DPlayer.min.js"></script>'
+    `<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/js/DPlayer.min.js"></script>`
   );
   document.write(
     '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'

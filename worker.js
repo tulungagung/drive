@@ -1,7 +1,7 @@
 const authConfig = {
   siteName: "A Team Drive", // App Name
-  siteIcon: "https:////cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/assets/images/favicon-x.png", // or favicon-x-light.png
-  version: "1.2.0-stable",
+  siteIcon: "https:////cdn.jsdelivr.net/gh/tulungagung/drive@main/assets/images/favicon-x.png", // or favicon-x-light.png
+  version: "1.2.6",
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: "", // Client ID
   client_secret: "", // Client Secret
@@ -185,26 +185,26 @@ var gds = [];
 
 function html(current_drive_order = 0, model = {}) {
   return `
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-  <title>${authConfig.siteName}</title>
-  <link rel="shortcut icon" href="${authConfig.siteIcon}" type="image/x-icon" />
-  <script>
-    window.drive_names = JSON.parse('${JSON.stringify(
-      authConfig.roots.map((it) => it.name)
-    )}');
-    window.MODEL = JSON.parse('${JSON.stringify(model)}');
-    window.current_drive_order = ${current_drive_order};
-    window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
-  </script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/app.min.js"></script>
-</head>
-<body>
-</body>
-</html>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+      <title>${authConfig.siteName}</title>
+      <link rel="shortcut icon" href="${authConfig.siteIcon}" type="image/x-icon" />
+      <script>
+        window.drive_names = JSON.parse('${JSON.stringify(
+          authConfig.roots.map((it) => it.name)
+        )}');
+        window.MODEL = JSON.parse('${JSON.stringify(model)}');
+        window.current_drive_order = ${current_drive_order};
+        window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
+      </script>
+      <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/app.min.js"></script>
+    </head>
+    <body>
+    </body>
+  </html>
 `;
 }
 
