@@ -102,7 +102,7 @@
     float: left;
     width: 30px;
     height: 30px;
-    background: url(../images/icon_menu.png);
+    background: url(../assets/images/icon_menu.png);
     background-size:100% 100%;
     transition: .6s;
     cursor: pointer;
@@ -110,7 +110,7 @@
 
 /* 图标动画icon */
 .nav_icon:hover{
-    background: url(../images/icon_menu.png);
+    background: url(../assets/images/icon_menu.png);
     background-size:100% 100%;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
