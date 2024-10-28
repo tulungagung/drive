@@ -5487,30 +5487,30 @@
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/css/mdui_v2_dark.min.css">'
+      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/mdui_v3_dark.min.css">'
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/css/mdui_v2.min.css">'
+      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/mdui_v2.min.css">'
     );
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/css/nexmoe_v2_dark.min.css">'
+      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/nexmoe_v2_dark.min.css">'
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/defdfb83366da391c7a315145b4717baf58b2005/css/nexmoe_v2.min.css">'
+      '<link rel="stylesheet" href="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/css/nexmoe_v2.min.css">'
     );
   }
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/9df127b5cc559b068c899b92d8a59bf2e9b9cd6f/js/mdui.min.js"></script>'
+    '<script src="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/js/mdui.min.js"></script>'
   );
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/9df127b5cc559b068c899b92d8a59bf2e9b9cd6f/js/flv.min.js"></script>'
+    '<script src="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/js/flv.min.js"></script>'
   );
   document.write(
-    '<script src="//rawcdn.githack.com/tulungagung/drive/9df127b5cc559b068c899b92d8a59bf2e9b9cd6f/js/DPlayer.min.js"></script>'
+    '<script src="//rawcdn.githack.com/tulungagung/drive/ecdba4dda52fc80b6cb3b16f5d474e5ffa57b6eb/js/DPlayer.min.js"></script>'
   );
   document.write(
     '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'
@@ -5583,12 +5583,12 @@
     if (UI.credits) {
       html += `
       <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
-        <a href="https://saweria.co/candro" target="_blank">
-          <img src="https://img.shields.io/static/v1?label=donate&amp;message=candro&amp;color=1E89F2&amp;labelColor=374455&amp;logo=webmoney" alt="candro need money">
+        <a href="https://s.id/candro" target="_blank">
+          <img src="https://img.shields.io/static/v1?label=support&amp;message=candro&amp;color=1E89F2&amp;labelColor=374455&amp;logo=docsify" alt="help me with money">
         </a>
       </div>
       </div>
-      `
+      `;
     } else {
       html += `
       </div>
@@ -6212,8 +6212,8 @@
   </div>
   <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
   
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive/js/ace.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive/js/ext-language_tools.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@workspace/js/ace.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@workspace/js/ext-language_tools.js"></script>
       `;
     $("#content").html(content);
     $.get(path, function (data) {
