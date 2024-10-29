@@ -1,4 +1,4 @@
-# Google Drive Team
+# Google Team Drive Index
 
 [![Author: Tulungagung](https://img.shields.io/badge/Author-tulungagung-blue.svg)](https://github.com/tulungagung)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -50,7 +50,7 @@
 - 🎨 Main Color:
    - red | pink | purple | deep-purple | indigo | blue | light-blue |
      cyan | teal | green | light-green | lime | yellow | amber | orange |
-     deep-orange | brown | greyblue-grey
+     deep-orange | brown | grey | blue-grey
 - 🖌 Accent Color:
    - red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
 
@@ -65,6 +65,6 @@
 
 Scan me Please !
 
-[![Saweria](https://cdn.jsdelivr.net/gh/tulungagung/drive@1.2.5/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
+[![Saweria](https://cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/assets/images/saweria-qrcode.jpg)](https://saweria.co/candro)
 
 Thank you very much!
