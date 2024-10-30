@@ -6,8 +6,8 @@ const authConfig = {
   client_id: "", // Client ID
   client_secret: "", // Client Secret
   refresh_token: "", // Refresh Token
-  folder_list_url: "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/tulungagung/drive@master/sample-files/sample-folder-id-list.txt
-  // Crypt Secret must be 32 characters long - Sample: "1234567890123456abcdefghIJKLMN!*" | don't use these characters (\,/,",')
+  folder_list_url: "", // Folder Id List(Only if you have any folders in roots)
+  // Crypt Secret must be 32 characters long - Sample: "1234567890123456abcdefghIJKLMN!*" | don't use these characters (\ / " ')
   crypt_secret: "", // Crypt Secret (Required)* This is used to encrypt file ids
   /**
    * Set up multiple Drives to be displayed; add multiples by format
@@ -200,7 +200,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.2.6/app.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@${authConfig.version}/app.min.js"></script>
 </head>
 <body>
 </body>
