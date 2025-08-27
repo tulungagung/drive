@@ -5487,30 +5487,30 @@
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/css/mdui_v3_dark.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/css/mdui_v3_dark.min.css">'
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/css/mdui_v3.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/css/mdui_v3.min.css">'
     );
   }
   if (UI.dark_mode) {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/css/nexmoe_v3_dark.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/css/nexmoe_v3_dark.min.css">'
     );
   } else {
     document.write(
-      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/css/nexmoe_v3.min.css">'
+      '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/css/nexmoe_v3.min.css">'
     );
   }
   document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/js/mdui.min.js"></script>'
+    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/js/mdui.min.js"></script>'
   );
   document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/js/flv.min.js"></script>'
+    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/js/flv.min.js"></script>'
   );
   document.write(
-    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/js/DPlayer.min.js"></script>'
+    '<script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/js/DPlayer.min.js"></script>'
   );
   document.write(
     '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'
@@ -5584,7 +5584,7 @@
       html += `
       <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
         <a href="https://ko-fi.com/candro" target="_blank">
-          <img src="https://img.shields.io/static/v1?label=candro&amp;message=v1.3.0&amp;color=1E89F2&amp;labelColor=374455&amp;logo=hasura" alt="help me with money">
+          <img src="https://img.shields.io/static/v1?label=candro&amp;message=v1.3.1&amp;color=1E89F2&amp;labelColor=374455&amp;logo=hasura" alt="help me with money">
         </a>
       </div>
       </div>
@@ -6212,8 +6212,8 @@
   </div>
   <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
   
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/js/ace.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.0/js/ext-language_tools.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/js/ace.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/tulungagung/drive@1.3.1/js/ext-language_tools.js"></script>
       `;
     $("#content").html(content);
     $.get(path, function (data) {
